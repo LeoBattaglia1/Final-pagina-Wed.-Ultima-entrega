@@ -1,0 +1,176 @@
+body{
+    background-image: url(https://as1.ftcdn.net/v2/jpg/02/71/29/58/1000_F_271295864_yiioni2LZXAkdVUs1EP6GdR680QR7iKv.jpg);
+    background-size: cover;
+}
+/************encabezado*****************/
+.encabezado{
+    display: flex;
+    width: 100%;
+    height: 140px;
+    justify-content: space-between;  
+}
+
+.encabezado >img{
+    width: 160px;
+    height: 160px;
+}
+
+
+h1{
+    color:black;
+    font-family: Qatar2022 Arabic Heavy;
+    font-size: 360%;
+    margin: 0%;
+    padding: 0%;
+}
+
+h1 >span{
+    font-family: 'Bungee Shade', cursive;
+    font-size: 150%;
+    margin: 0%;
+    padding: 0%; 
+}
+
+
+/**************DIV cuerpo central***************/
+
+
+.central{
+    display: flex;
+    width: 100%;
+    height: 370px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content:center;
+    align-items: center;
+    padding-top: 30px;
+    margin-bottom: 25px;
+}
+
+/***********logos de redes********/
+.redes{
+    display: flex;
+    width: 5%;
+    height: 250px;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-grow:0 ;
+}
+
+.redes >a >img{
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+}
+
+/********** DIV central ***********/
+
+.textoCentral{
+    display: flex;
+    width: 50%;
+    height: 300px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.textoCentral > ul{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color: black;
+    font-weight:bold;
+    line-height: 45px;
+    padding: 10px;
+}
+
+.textoCentral > img{
+    width: 350px;
+    height: 350px;
+}
+
+/********DIV de inicio de sesion***********/
+
+.inicioSesion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    height: 300px;
+    border: solid;
+    border-color: black;
+    margin-right: 5%;
+    padding-bottom: 10px;  
+}
+
+.inicioSesion >h2{
+    width: 100%;
+    font-size: 40px;
+    font-family: Qatar2022 Arabic Heavy;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+    border-color:white;
+}
+
+.inicioSesion >p{
+    font-family: Qatar2022 Arabic Heavy;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+#botonIngresar{
+    background-color: brown;
+    color:black;
+    width: 180px;
+    margin: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: Qatar2022 Arabic Heavy;
+}
+
+#botonRegistrarse{
+    background-color: brown;
+    color:black;
+    width: 180px;
+    margin: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: Qatar2022 Arabic Heavy;
+}
+
+#botonIngresar:hover{
+    transition: 0.5s;
+    background-color: white;
+}
+
+#botonRegistrarse:hover{
+    transition: 0.5s;
+    background-color: white;
+}
+/***********pie de pagina************/
+
+footer{
+    display: flex;
+    background-color: grey;
+    width: 100%;
+    height: 30px;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-grow:0 ;
+}
+
+.botonesFooter{
+    background-color: grey;
+    color: aliceblue;
+    width: 25%;
+    cursor: pointer;
+}
+
+.botonesFooter:hover{
+    color: black;
+    transition: 0.5s;
+    background-color: white;
+}
+

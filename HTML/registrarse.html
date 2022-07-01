@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/registrarse.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="encabezado">
+        <h1><span>Prode   </span>Copa del mundo Qatar 2022</h1>
+        <img src="../imagenes/mascota.png"> 
+    </div>
+
+ <div class="central">
+    <form class="formulario">
+        <label for="usuario">Nombre de usuario:</label>
+        <input id="usuario" type="text" name="usuario">
+        <p id="imprimeRespuestaUsuario"></p>
+
+        <label for="contrasenia">Contrasenia:</label>
+        <input id="contrasenia" type="password" name="contrasenia">
+        <label for="contrasenia">Repetir Contrasenia:</label>
+        <input id="repetirContrasenia" type="password" name="repetirContrasenia">
+        <p id="imprimeRespuestaContrasenia"></p>
+
+        <label for="nombreYapellido">Nombre y Apellido:</label>
+        <input id="nombreYapellido" type="text" name="apellido">
+        <label for="dni">Numero de DNI:</label>
+        <input id="dni" type="number" name="dni">
+        <label for="telefono">Telefono:</label>
+        <input id="telefono" type="number" name="telefono">
+    </form> 
+    
+    <div class="terminosCondisiones"> 
+            <label for="terminos">Acepto terminos y condisiones:</label>
+            <input id="checkboxTerminos" type="checkbox">
+            <p id="capcha"></p>
+            <input id="inputCapcha" type="text" placeholder="Ingresar capcha" name="capcha"> 
+            <p id="imprimeRespuestaCapcha"></p> 
+            <button id="guardarDatos">GUARDAR DATOS</button>
+            <button><a href="./home.html">FINALIZAR</button></a>
+    </div> 
+    
+    <img id="gif" src="../imagenes/mascotaGIF.gif">
+ </div>
+    
+
+    <script src="/JS/final.js"></script>
+</body>
+</html>
+    
+    
+       
+
+

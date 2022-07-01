@@ -1,0 +1,144 @@
+body{
+    background-image: url(https://as1.ftcdn.net/v2/jpg/02/71/29/58/1000_F_271295864_yiioni2LZXAkdVUs1EP6GdR680QR7iKv.jpg);
+    background-size: cover;
+}
+/************encabezado*****************/
+.encabezado{
+    display: flex;
+    width: 100%;
+    height: 140px;
+    justify-content: space-between;  
+}
+
+.encabezado >img{
+    width: 160px;
+    height: 160px;
+}
+
+
+h1{
+    color:black;
+    font-family: Qatar2022 Arabic Heavy;
+    font-size: 360%;
+    margin: 0%;
+    padding: 0%;   
+}
+
+h1 >span{
+    font-family: 'Bungee Shade', cursive;
+    font-size: 150%;
+    margin: 0%;
+    padding: 0%; 
+}
+
+/**********opciones de menu***********/
+
+.menu{
+    padding-top: 10px;
+    width: 100%;
+    margin: auto;
+    position: absolute;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+.botonOpciones li a {
+    background-color: grey;
+    color: aliceblue;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px 55px;
+    display: block;
+    border: solid black 1px;
+}
+
+
+.botonOpciones li a:hover{
+    color: black;
+    transition: 0.5s;
+    background-color: white;
+}
+
+
+.botonOpciones > li{
+    float: left;
+}
+
+.botonOpciones li ul{ 
+    display: none; /**desaparecen los sub menu**/
+    position: absolute;
+    padding: 0;
+}
+
+.botonOpciones li:hover > ul{
+    display: block; /**hace que los sub menu aparezcan en block cuando pasa con el mouse**/
+}
+
+/****tablas*****/
+
+.cuerpo{
+    display:flex;
+    width: 100%;
+    padding: 0;
+    margin-top: 60px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+table{
+       height: 60px;
+    margin: 0px 25px 10px 25px;
+    padding: 0;  
+}
+
+p{
+    font-size: 50px;
+    font-family: Qatar2022 Arabic Heavy;
+    padding: 0%;
+    margin: 25px;    
+}
+
+table, tr{
+    border: black double 5px;
+    border-collapse: collapse;
+    background-color:beige;
+    padding:  2px;    
+}
+
+th{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    padding-inline-start: 10px;
+}
+
+tbody{
+    font-size: 20px;
+    text-align: center;   
+}
+
+.cuerpo button{
+    background-color: brown;
+    cursor: pointer;
+    position: absolute; 
+    right: 30px;
+}
+
+.cuerpo button:hover{
+    transition: 0.5s;
+    background-color: white;
+}
+
+.cuerpo button a{
+    color:black;
+    height: 45px;
+    width: 100px;
+    margin: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: Qatar2022 Arabic Heavy;
+    text-decoration: none;   
+}
